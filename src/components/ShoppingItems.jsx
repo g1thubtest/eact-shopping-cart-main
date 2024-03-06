@@ -15,7 +15,7 @@ const ShoppingItems = ({ item }) => {
 			<div className='mt-6 flex justify-between items-center px-4'>
 				<div>
 					<div className='text-sm font-bold mb-3'>{name}</div>
-					<div className='text-xl font-bold'>${price}</div>
+					<div className='text-xl font-bold'>₽{price}</div>
 				</div>
 				<button className='bg-grey p-3' onClick={() => dispatch(add(item))}>
 					В корзину
